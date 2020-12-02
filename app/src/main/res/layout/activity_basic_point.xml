@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".BasicPointActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="409dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="513dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="79dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/basics"
+            android:textColor="@android:color/background_dark"
+            android:textSize="46sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="46dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="360dp"
+            android:layout_marginBottom="176dp"
+            android:background="@drawable/back"
+            android:onClick="back" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="81dp"
+            android:layout_height="107dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="295dp"
+            android:layout_marginBottom="59dp"
+            app:srcCompat="@drawable/leafimage_left" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="281dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="60dp"
+            app:srcCompat="@drawable/leafimage_right" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="511dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@android:style/Widget.Material.TextView.SpinnerItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="164dp"
+            android:layout_marginBottom="23dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/meaning_of_accounting" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@android:style/Widget.Material.TextView.SpinnerItem"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="418dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/accounting_as_a_source_of_information" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@android:style/Widget.Material.TextView.SpinnerItem"
+            android:layout_width="282dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="360dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/objectives_of_accounting" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@android:style/Widget.Material.TextView.SpinnerItem"
+            android:layout_width="223dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="166dp"
+            android:layout_marginBottom="303dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/role_of_accounting" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@android:style/Widget.Material.TextView.SpinnerItem"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="113dp"
+            android:layout_marginBottom="262dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="@string/basic_terms_in_accounting" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="37dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="412dp"
+            android:background="@drawable/next_activity"
+            android:onClick="Accounting_as_Source_Of_Information" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="457dp"
+            android:background="@drawable/next_activity"
+            android:onClick="Meaning_of_Accounting" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="32dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="366dp"
+            android:background="@drawable/next_activity" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="35dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="311dp"
+            android:background="@drawable/next_activity" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="40dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="256dp"
+            android:background="@drawable/next_activity" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

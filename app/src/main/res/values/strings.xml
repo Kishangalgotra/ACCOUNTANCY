@@ -1,0 +1,285 @@
+<resources>
+    <string name="app_name">ACCOUNTANCY</string>
+    <string name="accountancy">Accountancy</string>
+    <string name="todo">TODO</string>
+    <string name="text_view">Over the centuries,\nAccounting has remained
+                            confined to the financial record-keeping
+                            functions of the accountant.\n\nBut, today’s rapidly changing business
+                            environment has forced the accountants to
+                            reassess their roles and functions both within
+                            the organisation and the society.\n\nThe role of an accountant has now shifted
+                            from that of
+                            a mere recorder of transactions to that of the
+                            member providing relevant information to the
+                            decision-making team.\n\nBroadly speaking,
+                            accounting today is much more than just bookkeeping
+                            and the preparation of financial reports.\n\nAccountants are now capable of working in exciting
+                            new growth areas such as: forensic accounting
+                            \n(solving crimes such as computer hacking and the
+                            theft of large amounts of money on the internet); ecommerce
+                            (designing web-based payment system);
+financial planning, environmental accounting, etc.\n\nThis realisation came due to the fact that accounting
+is capable of providing the kind of information that
+managers and other interested persons need in
+order to make better decisions.\n\nThis aspect of
+accounting gradually assumed so much importance
+that it has now been raised to the level of an
+information system.\n\nAs an information system, it
+collects data and communicates economic
+information about the organisation to a wide variety
+of users whose decisions and actions are related to
+its performance.\n\nThis introductory chapter
+therefore, deals with the nature, need and scope of
+accounting in this context.</string>
+
+    <string name="MOA_textview">In 1941, The American Institute of Certified Public Accountants (AICPA) had
+defined accounting as the art of recording, classifying, and summarising in a
+significant manner and in terms of money, transactions and events which
+are, in part at least, of financial character, and interpreting the results thereof’.
+With greater economic development resulting in changing role of accounting,
+its scope, became broader. In 1966, the American Accounting Association
+(AAA) defined accounting as ‘the process of identifying, measuring and
+communicating economic information to permit informed judgments and
+decisions by users of information’.</string>
+    <string name="MOA_textview2">In 1970, the Accounting Principles Board of AICPA also emphasised that
+the function of accounting is to provide quantitative information, primarily
+financial in nature, about economic entities, that is intended to be useful in
+making economic decisions.
+Accounting can therefore be defined as the process of identifying,
+measuring, recording and communicating the required information relating
+to the economic events of an organisation to the interested users of such
+Fig. 1.1 : Showing the process of accounting
+2020-21
+Introduction to Accounting 3
+information. In order to appreciate the exact nature of accounting, we must
+understand the following relevant aspects of the definition:
+• Economic Events
+• Identification, Measurement, Recording and Communication
+• Organisation
+• Interested Users of Information</string>
+    <string name="MOA_1.1.1"><B>1.1.1</B>\n\nEconomic Events
+Business organisations involves economic events. An economic event is known
+as a happening of consequence to a business organisation which consists of
+transactions and which are measurable in monetary terms. For example,
+purchase of machinery, installing and keeping it ready for manufacturing is
+an event which comprises number of financial transactions such as buying a
+machine, transportation of machine, site preparation for installation of a
+machine, expenditure incurred on its installation and trial runs. Thus,
+accounting identifies bunch of transactions relating to an economic event. If
+an event involves transactions between an outsider and an organisation, these
+are known as external events. The following are the examples of such
+transactions:
+• Sale of merchandise to the customers.
+• Rendering services to the customers by ABC Limited.
+• Purchase of materials from suppliers.
+• Payment of monthly rent to the landlord.
+An internal event is an economic event that occurs entirely between the
+internal wings of an enterprise, e.g., supply of raw material or components by
+the stores department to the manufacturing department, payment of wages
+to the employees, etc.</string>
+    <string name="MOA_1.1.2"><B>1.1.2</B>\n\nIdentification, Measurement, Recording and Communication
+Identification : It means determining what transactions to record, i.e., to identity
+events which are to be recorded. It involves observing activities and selecting
+those events that are of considered financial character and relate to the
+organisation. The business transactions and other economic events therefore
+are evaluated for deciding whether it has to be recorded in books of account.
+For example, the value of human resources, changes in managerial policies
+or appointment of personnel are important but none of these are recorded in
+books of account. However, when a company makes a sale or purchase, whether
+on cash or credit, or pays salary it is recorded in the books of account.
+Measurement : It means quantification (including estimates) of business
+transactions into financial terms by using monetary unit, viz. rupees and
+paise as a measuring unit. If an event cannot be quantified in monetary
+terms, it is not considered for recording in financial accounts. That is why
+important items like the appointment of a new managing director, signing of
+contracts or changes in personnel are not shown in the books of accounts.
+Recording : Once the economic events are identified and measured in financial
+terms, these are recorded in books of account in monetary terms and in a
+chronological order. Recording is done in a manner that the necessary financial
+2020-21
+Introduction to Accounting 5
+information is summarised as per well-established practice and is made available
+as and when required.
+Communication : The economic events are identified, measured and recorded
+in order that the pertinent information is generated and communicated in a
+certain form to management and other internal and external users. The
+information is regularly communicated through accounting reports. These
+reports provide information that are useful to a variety of users who have an
+interest in assessing the financial performance and the position of an
+enterprise, planning and controlling business activities and making necessary
+decisions from time to time. The accounting information system should be
+designed in such a way that the right information is communicated to the
+right person at the right time. Reports can be daily, weekly, monthly, or
+quarterly, depending upon the needs of the users. An important element in
+the communication process is the accountant’s ability and efficiency in
+presenting the relevant information.</string>
+
+    <string name="MOA_1.1.3"><b>1.1.3</b>\n\n<b>Organisation</b>
+Organisation refers to a business enterprise, whether for profit or not-forprofit
+motive. Depending upon the size of activities and level of business
+operation, it can be a sole-proprietory concern, partnership firm, cooperative
+society, company, local authority, municipal corporation or any other
+association of persons.</string>
+    <string name="MOA_1.1.4">1.1.4\n\n Interested Users of Information
+Accounting is a means by which necessary financial information about
+business enterprise is communicated and is also called the language of
+business. Many users need financial information in order to make important
+decisions. These users can be divided into two broad categories: internal users
+and external users. Internal users include: Chief Executive, Financial Officer,
+Vice President, Business Unit Managers, Plant Managers, Store Managers,
+Line Supervisors, etc. External users include: present and potential Investors
+(shareholders), Creditors (Banks and other Financial Institutions, Debentureholders
+and other Lenders), Tax Authorities, Regulatory Agencies (Department
+of Company Affairs, Registrar of Companies, Securities Exchange Board of
+India, Labour Unions, Trade Associations, Stock Exchange and Customers,
+etc. Since the primary function of accounting is to provide useful information
+for decision-making, it is a means to an end, with the end being the decision
+that is helped by the availability of accounting information. You will study
+about the types of accounting information and its users later in this chapter.</string>
+
+    <string name="AAS_textView">
+ As discussed earlier, accounting is a definite processes of interlinked activities,
+(refer figure 1.1) that begins with the identification of transactions and ends
+with the preparation of financial statements. Every step in the process of
+accounting generates information. Generation of information is not an end
+in itself. It is a means to facilitate the dissemination of information among
+different user groups. Such information enables the interested parties to
+take appropriate decisions. Therefore, dissemination of information is an
+essential function of accounting.\n\n To be useful, the accounting information should
+ensure to:\n\t
+• provide information for making economic \tdecisions;\n
+• serve the users who rely on financial statements as their principal source
+of information;\n
+• provide information useful for predicting and evaluating the amount,
+timing and uncertainty of potential cash-flows;\n
+• provide information for judging management’s ability to utilise resources
+effectively in meeting goals;\n\n
+Introduction to Accounting 7 \n
+• provide factual and interpretative information by disclosing underlying
+assumptions on matters subject to interpretation, evaluation, prediction,
+or estimation; \n
+• provide information on activities affecting the society.\n\n
+The role of an accountant in generating \naccounting information is to observe,
+screen and recognise events and transactions to measure and process them,
+and thereby compile reports comprising accounting information that are
+communicated to the users. These are then interpreted, decoded and used
+by management and other user groups.\n\n It must be ensured that the information
+provided is relevant, adequate and reliable for decision-making.\nThe apparently
+divergent needs of internal and external users of accounting information have
+resulted in the development of sub-disciplines within the accounting discipline
+namely, financial accounting, cost accounting and management accounting (refer
+box 3).\n
+Financial accounting assists keeping a systematic record of financial
+transactions the preparation and presentation of financial reports in order to
+arrive at a measure of organisational success and financial soundness.\nIt
+relates to the past period, serves the stewardship function and is monetary in
+nature.\nIt is primarily concerned with the provision of financial information to
+all stakeholders.\n
+Cost accounting assists in analysing the expenditure for ascertaining the
+cost of various products manufactured or services rendered by the firm and
+
+8 Accountancy
+fixation of prices thereof.\n\nIt also helps in controlling the costs and providing
+necessary costing information to management for decision-making.
+Management accounting deals with the provision of necessary accounting
+information to people within the organisation to enable them in decision-making,
+planning and controlling business operations. Management accounting draws
+the relevant information mainly from financial accounting and cost accounting
+which helps the management in budgeting, assessing profitability, taking pricing
+decisions, capital expenditure decisions and so on. Besides, it generates other
+information (quantitative and qualitative, financial and non-financial) which
+relates to the future and is relevant for decision-making in the organisation.
+Such information includes: sales forecast, cash flows, purchase requirement,
+manpower needs, environmental data about effects on air, water, land, natural
+resources, flora, fauna, human health, social responsibilities, etc.
+As a result, the scope of accounting has become so vast, that new areas
+like human resource accounting, social accounting, responsibility accounting
+have also gained prominance.
+    </string>
+    <string name="AAS_textView2">
+1.2.1 \n\nQualitative Characteristics of Accounting Information
+Qualitative characteristics are the attributes of accounting information which
+tend to enhance its understandability and usefulness.\n\nIn order to assess
+whether accounting information is decision useful, it must possess the
+characteristics of reliability, relevance, understandability and comparability.
+\nReliability
+Reliability means the users must be able to depend on the information. The
+reliability of accounting information is determined by the degree of
+correspondence between what the information conveys about the transactions
+or events that have occurred, measured and displayed.\nA reliable information
+should be free from error and bias and faithfully represents what it is meant
+to represent.\nTo ensure reliability, the information disclosed must be credible,
+verifiable by independent parties use the same method of measuring, and be
+neutral and faithful (refer figure 1.3).
+        \t\tRelevance
+To be relevant, information must be available in time, must help in prediction
+and feedback, and must influence the decisions of users by :
+(a) helping them form prediction about the outcomes of past, present or
+future events; and/or
+(b) confirming or correcting their past evaluations.
+Understandability
+Understandability means decision-makers must interpret accounting
+information in the same sense as it is prepared and conveyed to them. The
+qualities that distinguish between good and bad communication in a message
+are fundamental to the understandability of the message. A message is said
+to be effectively communicated when it is interpreted by the receiver of the
+message in the same sense in which the sender has sent. Accountants should
+present the comparable information in the most intenlligible manner without
+sacrificing relevance and reliability.
+    </string>
+    <String name="A1.3">1.3 Objectives of Accounting
+        As an information system, the basic objective of accounting is to provide useful
+        information to the interested group of users, both external and internal. The
+        necessary information, particularly in case of external users, is provided in
+        the form of financial statements, viz., profit and loss account and balance
+        sheet. Besides these, the management is provided with additional information
+        from time to time from the accounting records of business. Thus, the primary
+        objectives of accounting include the following:\n\n
+    </String>
+
+    <string name="A1.3.1">
+        1.3.1 Maintenance of Records of Business Transactions
+Accounting is used for the maintenance of a systematic record of all financial
+transactions in book of accounts. Even the most brilliant executive or manager
+cannot accurately remember the numerous amount of varied transactions
+such as purchases, sales, receipts, payments, etc. that takes place in business
+everyday. Hence, a proper and complete records of all business transactions
+are kept regularly. Moreover, the recorded information enables verifiability
+and acts as an evidence.\n
+    </string>
+    <String name="A1.3.2">
+        1.3.2 Calculation of Profit and Loss
+        The owners of business are keen to have an idea about the net results of their
+        business operations periodically, i.e. whether the business has earned profits
+    </String>
+    <string name="AB1.3.2">
+    or incurred losses. Thus, another objective of accounting is to ascertain the
+profit earned or loss sustained by a business during an accounting period
+which can be easily workout with help of record of incomes and expenses
+relating to the business by preparing a profit or loss account for the period.
+Profit represents excess of revenue (income), over expenses. If the total revenue
+of a given period is ` 6,00,000 and total expenses are ` 5,40,000 the profit will
+be equal to ` 60,000(` 6,00,000 – ` 5,40,000). If however, the total expenses
+exceed the total revenue, the difference reflects the loss.
+    </string>
+
+    <string name="1.3.3">6
+
+        1.3.3 Depiction of Financial Position
+Accounting also aims at ascertaining the financial position of the business
+concern in the form of its assets and liabilities at the end of every accounting
+period. A proper record of resources owned by business organisation (Assets)
+    </string>
+
+    <string name="introduction">INTRODUCTION</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACk</string>
+    <string name="basics">BASICS</string>
+    <string name="meaning_of_accounting">Meaning of Accounting</string>
+    <string name="accounting_as_a_source_of_information">Accounting as a Source of Information</string>
+    <string name="objectives_of_accounting">Objectives of Accounting</string>
+    <string name="role_of_accounting">Role of Accounting</string>
+    <string name="basic_terms_in_accounting">Basic Terms in Accounting</string>
+    <string name="accounting_as_source_of_information">Accounting as source of Information</string>
+
+</resources>
