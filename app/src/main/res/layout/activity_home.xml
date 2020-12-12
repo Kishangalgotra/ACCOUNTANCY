@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/homeconstraint"
@@ -9,17 +9,7 @@
     android:foregroundTint="#F2F2F2"
     tools:context=".HomeActivity">
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,7 +32,7 @@
                 android:onClick="nextbasic"
                 android:padding="20dp"
                 android:text="BASICS"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
 
             <TextView
@@ -56,7 +46,7 @@
                 android:lineSpacingExtra="12sp"
                 android:padding="20dp"
                 android:text="Theory Base of Accounting"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
 
             <TextView
@@ -70,7 +60,7 @@
                 android:lineSpacingExtra="12sp"
                 android:padding="20dp"
                 android:text="Recording of Transactions - I"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
 
             <TextView
@@ -84,7 +74,7 @@
                 android:lineSpacingExtra="12sp"
                 android:padding="20dp"
                 android:text="Recording of Transactions - II"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
 
             <TextView
@@ -98,7 +88,7 @@
                 android:lineSpacingExtra="12sp"
                 android:padding="20dp"
                 android:text="Bank Reconciliation Statement"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
 
             <TextView
@@ -112,7 +102,7 @@
                 android:lineSpacingExtra="12sp"
                 android:padding="20dp"
                 android:text="Trial Balance and Rectification of Errors"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
 
             <TextView
@@ -126,7 +116,7 @@
                 android:lineSpacingExtra="12sp"
                 android:padding="20dp"
                 android:text="Depreciation, Provisions and Reserves"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
 
             <TextView
@@ -140,8 +130,7 @@
                 android:lineSpacingExtra="12sp"
                 android:padding="20dp"
                 android:text="Bill of Exchange"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:typeface="serif" />
         </LinearLayout>
     </ScrollView>
-</androidx.constraintlayout.widget.ConstraintLayout>
