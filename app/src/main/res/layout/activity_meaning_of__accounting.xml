@@ -6,47 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Meaning_of_Accounting">
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="416dp"
-        android:layout_height="181dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollview"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="377dp"
-            android:layout_height="110dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="31dp"
-            android:fontFamily="sans-serif-thin"
-            android:gravity="center"
-            android:text="Meanning OF Accounting"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-    </RelativeLayout>
-
 
     <ScrollView
         android:id="@+id/scrollview"
-        android:layout_width="401dp"
-        android:layout_height="529dp"
-        android:layout_marginBottom="34dp"
+        android:layout_width="403dp"
+        android:layout_height="727dp"
+        android:layout_marginTop="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:id="@+id/linerlayout"

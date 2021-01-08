@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ACCOUNTANCY</string>
     <string name="accountancy">Accountancy</string>
-    <string name="todo">TODO</string>
+
     <string name="text_view">Over the centuries,\nAccounting has remained
                             confined to the financial record-keeping
                             functions of the accountant.\n\nBut, today’s rapidly changing business
@@ -227,49 +227,7 @@ message in the same sense in which the sender has sent. Accountants should
 present the comparable information in the most intenlligible manner without
 sacrificing relevance and reliability.
     </string>
-    <String name="A1.3">1.3 Objectives of Accounting
-        As an information system, the basic objective of accounting is to provide useful
-        information to the interested group of users, both external and internal. The
-        necessary information, particularly in case of external users, is provided in
-        the form of financial statements, viz., profit and loss account and balance
-        sheet. Besides these, the management is provided with additional information
-        from time to time from the accounting records of business. Thus, the primary
-        objectives of accounting include the following:\n\n
-    </String>
 
-    <string name="A1.3.1">
-        1.3.1 Maintenance of Records of Business Transactions
-Accounting is used for the maintenance of a systematic record of all financial
-transactions in book of accounts. Even the most brilliant executive or manager
-cannot accurately remember the numerous amount of varied transactions
-such as purchases, sales, receipts, payments, etc. that takes place in business
-everyday. Hence, a proper and complete records of all business transactions
-are kept regularly. Moreover, the recorded information enables verifiability
-and acts as an evidence.\n
-    </string>
-    <String name="A1.3.2">
-        1.3.2 Calculation of Profit and Loss
-        The owners of business are keen to have an idea about the net results of their
-        business operations periodically, i.e. whether the business has earned profits
-    </String>
-    <string name="AB1.3.2">
-    or incurred losses. Thus, another objective of accounting is to ascertain the
-profit earned or loss sustained by a business during an accounting period
-which can be easily workout with help of record of incomes and expenses
-relating to the business by preparing a profit or loss account for the period.
-Profit represents excess of revenue (income), over expenses. If the total revenue
-of a given period is ` 6,00,000 and total expenses are ` 5,40,000 the profit will
-be equal to ` 60,000(` 6,00,000 – ` 5,40,000). If however, the total expenses
-exceed the total revenue, the difference reflects the loss.
-    </string>
-
-    <string name="1.3.3">6
-
-        1.3.3 Depiction of Financial Position
-Accounting also aims at ascertaining the financial position of the business
-concern in the form of its assets and liabilities at the end of every accounting
-period. A proper record of resources owned by business organisation (Assets)
-    </string>
 
     <string name="introduction">INTRODUCTION</string>
     <string name="next">NEXT</string>
@@ -281,5 +239,7 @@ period. A proper record of resources owned by business organisation (Assets)
     <string name="role_of_accounting">Role of Accounting</string>
     <string name="basic_terms_in_accounting">Basic Terms in Accounting</string>
     <string name="accounting_as_source_of_information">Accounting as source of Information</string>
+    <string name="todo">TODO</string>
+    <string name="meanning_of_accounting">Meanning OF Accounting</string>
 
 </resources>
