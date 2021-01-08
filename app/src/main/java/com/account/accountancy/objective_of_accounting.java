@@ -24,7 +24,7 @@ public class objective_of_accounting extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle SavedIntanceState){
         super.onCreate(SavedIntanceState);
-        setContentView(R.layout.Activity_objective_of_accounting);
+        setContentView(R.layout.activity_objective_of_accounting);
         data1 =  findViewById(R.id.textViewdata1);
         data2 =  findViewById(R.id.textViewdata2);
         data3 =  findViewById(R.id.textViewdata3);
