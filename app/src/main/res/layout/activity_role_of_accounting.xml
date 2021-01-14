@@ -44,6 +44,7 @@
             android:textColor="@color/cardview_dark_background"
             android:textSize="15sp"
             android:textStyle="normal" />
+
         <TextView
             android:id="@+id/texttitile1"
             android:layout_width="match_parent"
@@ -57,7 +58,7 @@
             android:text="@string/_1_record_keeping"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
@@ -65,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@color/cardview_light_background"
+            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview1"
             android:textSize="15sp"
@@ -84,7 +85,7 @@
             android:text="@string/_2_analyzing_and_ascertaining_the_financial_results"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
@@ -92,7 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@color/cardview_light_background"
+            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview2"
             android:textSize="15sp"
@@ -111,7 +112,7 @@
             android:text="@string/_3_analysis_of_the_financial_status_of_affairs"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
@@ -119,7 +120,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@color/cardview_light_background"
+            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview3"
             android:textSize="15sp"
@@ -138,7 +139,7 @@
             android:text="@string/_4_decision_making"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
@@ -146,7 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@color/cardview_light_background"
+            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
             android:textSize="15sp"
@@ -165,7 +166,7 @@
             android:text="@string/_5_liquidity_status"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
@@ -173,7 +174,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@color/cardview_light_background"
+            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
             android:textSize="15sp"
@@ -192,7 +193,7 @@
             android:text="@string/_6_securing_the_positioning"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
@@ -200,7 +201,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@color/cardview_light_background"
+            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
             android:textSize="15sp"
@@ -219,7 +220,7 @@
             android:text="@string/_7_accountability"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
@@ -227,7 +228,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@color/cardview_light_background"
+            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
             android:textSize="15sp"

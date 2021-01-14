@@ -44,7 +44,7 @@
                 android:text="@string/accounting_equation"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -56,6 +56,7 @@
                 android:fontFamily="@font/montserrat"
                 android:paddingStart="10dp"
                 android:text="@string/textview"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -72,7 +73,7 @@
                 android:text="Accounting "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -85,6 +86,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -101,7 +103,7 @@
                 android:text="Accounts Payable"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -114,6 +116,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -130,7 +133,7 @@
                 android:text="Accounts Receivable"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -143,6 +146,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -159,7 +163,7 @@
                 android:text="Accrual Accounting"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -172,6 +176,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -188,7 +193,7 @@
                 android:text="Accruals "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -201,6 +206,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -217,7 +223,7 @@
                 android:text="@string/amortization"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -230,6 +236,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -246,7 +253,7 @@
                 android:text="Asset "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -259,6 +266,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -275,7 +283,7 @@
                 android:text="@string/audit_trail"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -288,6 +296,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -304,7 +313,7 @@
                 android:text="Auditors "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -317,6 +326,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="@string/textview"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
 
@@ -334,7 +344,7 @@
                 android:text="Balance Sheet"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -347,6 +357,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -363,7 +374,7 @@
                 android:text="Bookkeeping "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -376,6 +387,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="@string/textview"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -392,7 +404,7 @@
                 android:text="Budgeting  "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -405,6 +417,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -421,7 +434,7 @@
                 android:text="Capital Stock"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -434,6 +447,7 @@
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:text="TextView"
+                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
 
