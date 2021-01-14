@@ -208,32 +208,7 @@
             android:textSize="15sp"
             tools:visibility="gone" />
 
-        <TextView
-            android:id="@+id/role_texttitile7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_layout_yello"
-            android:clickable="false"
-            android:fontFamily="@font/montserrat"
-            android:gravity="bottom"
-            android:onClick="onClick"
-            android:padding="15dp"
-            android:text="@string/_7_accountability"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@android:color/background_dark"
-            android:textSize="17sp"
-            android:textStyle="normal" />
 
-        <TextView
-            android:id="@+id/role_textViewdata7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:fontFamily="@font/montserrat"
-            android:text="@string/textview"
-            android:textColor="@android:color/black"
-            android:textSize="15sp"
-            tools:visibility="gone" />
     </LinearLayout>
     </ScrollView>
 
