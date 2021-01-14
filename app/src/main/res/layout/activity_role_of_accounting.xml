@@ -66,9 +66,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview1"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:visibility="gone" />
 
@@ -93,9 +93,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview2"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:visibility="gone" />
 
@@ -120,9 +120,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview3"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:visibility="gone" />
 
@@ -147,9 +147,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:visibility="gone" />
 
@@ -174,9 +174,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:visibility="gone" />
 
@@ -201,9 +201,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:visibility="gone" />
 
@@ -228,9 +228,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
-            android:background="@android:color/black"
             android:fontFamily="@font/montserrat"
             android:text="@string/textview"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:visibility="gone" />
     </LinearLayout>
