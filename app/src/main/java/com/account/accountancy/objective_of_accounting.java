@@ -89,25 +89,25 @@ public class objective_of_accounting extends AppCompatActivity implements View.O
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.texttitile1 :  if(arr[0]==0){data1.setVisibility(View.VISIBLE); arr[0] =1;}
-                                       else {data1.setVisibility(View.INVISIBLE); arr[0] =0;}
-                    break;
+                                       else {data1.setVisibility(View.GONE); arr[0] =0;}
+                break;
             case R.id.texttitile2 : if(arr[1]==0){data2.setVisibility(View.VISIBLE); arr[1] =1;}
-                                       else {data2.setVisibility(View.INVISIBLE); arr[1] =0;}
+                                       else {data2.setVisibility(View.GONE); arr[1] =0;}
                 break;
             case R.id.texttitile3 :  if(arr[2]==0){data3.setVisibility(View.VISIBLE); arr[2] =1;}
-                                       else {data3.setVisibility(View.INVISIBLE); arr[2] =0;}
+                                       else {data3.setVisibility(View.GONE); arr[2] =0;}
                 break;
             case R.id.texttitile4 : if(arr[3]==0){data4.setVisibility(View.VISIBLE); arr[3] =1;}
-                                       else {data4.setVisibility(View.INVISIBLE); arr[3] =0;}
+                                       else {data4.setVisibility(View.GONE); arr[3] =0;}
                 break;
             case R.id.texttitile5 :  if(arr[4]==0){data5.setVisibility(View.VISIBLE); arr[4] =1;}
-                                       else {data5.setVisibility(View.INVISIBLE); arr[4] =0;}
+                                       else {data5.setVisibility(View.GONE); arr[4] =0;}
                 break;
             case R.id.texttitile6 :  if(arr[5]==0){data6.setVisibility(View.VISIBLE); arr[5] =1;}
-                                       else {data6.setVisibility(View.INVISIBLE); arr[5] =0;}
+                                       else {data6.setVisibility(View.GONE); arr[5] =0;}
                 break;
             case R.id.texttitile7 :  if(arr[6]==0){data7.setVisibility(View.VISIBLE); arr[6] =1;}
-                                       else {data7.setVisibility(View.INVISIBLE); arr[6] =0;}
+                                       else {data7.setVisibility(View.GONE); arr[6] =0;}
                 break;
         }
     }

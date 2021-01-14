@@ -28,7 +28,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:clickable="false"
                 android:gravity="bottom"
+                android:onClick="onClick"
                 android:padding="15dp"
                 android:text="1) Record Keeping"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -44,14 +46,17 @@
                 android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
                 android:text="TextView1"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                tools:visibility="gone" />
 
             <TextView
                 android:id="@+id/texttitile2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:clickable="false"
                 android:gravity="bottom"
+                android:onClick="onClick"
                 android:padding="15dp"
                 android:text="2) Analyzing and ascertaining the financial results"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -67,14 +72,17 @@
                 android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
                 android:text="TextView2"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                tools:visibility="gone" />
 
             <TextView
                 android:id="@+id/texttitile3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:clickable="false"
                 android:gravity="bottom"
+                android:onClick="onClick"
                 android:padding="15dp"
                 android:text="3) Analysis of the financial status of affairs"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -90,14 +98,17 @@
                 android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
                 android:text="TextView3"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                tools:visibility="gone" />
 
             <TextView
                 android:id="@+id/texttitile4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:clickable="false"
                 android:gravity="bottom"
+                android:onClick="onClick"
                 android:padding="15dp"
                 android:text="4) Decision Making"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -113,14 +124,17 @@
                 android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
                 android:text="TextView"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                tools:visibility="gone" />
 
             <TextView
                 android:id="@+id/texttitile5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:clickable="false"
                 android:gravity="bottom"
+                android:onClick="onClick"
                 android:padding="15dp"
                 android:text="5) Liquidity Status"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -136,14 +150,17 @@
                 android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
                 android:text="TextView"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                tools:visibility="gone" />
 
             <TextView
                 android:id="@+id/texttitile6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:clickable="false"
                 android:gravity="bottom"
+                android:onClick="onClick"
                 android:padding="15dp"
                 android:text="6) Securing the positioning"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -159,14 +176,17 @@
                 android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
                 android:text="TextView"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                tools:visibility="gone" />
 
             <TextView
                 android:id="@+id/texttitile7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:clickable="false"
                 android:gravity="bottom"
+                android:onClick="onClick"
                 android:padding="15dp"
                 android:text="7) Accountability "
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -182,7 +202,8 @@
                 android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
                 android:text="TextView"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                tools:visibility="gone" />
         </LinearLayout>
     </ScrollView>
 
