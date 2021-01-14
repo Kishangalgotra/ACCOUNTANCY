@@ -1,6 +1,9 @@
 package com.account.accountancy;
 
 import android.os.Bundle;
+import android.transition.Slide;
+import android.transition.Transition;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -28,12 +31,19 @@ public class objective_of_accounting extends AppCompatActivity implements View.O
         super.onCreate(SavedIntanceState);
         setContentView(R.layout.activity_objective_of_accounting);
         data1 =  findViewById(R.id.textViewdata1);
+        data1.setVisibility(View.GONE);
         data2 =  findViewById(R.id.textViewdata2);
+        data2.setVisibility(View.GONE);
         data3 =  findViewById(R.id.textViewdata3);
+        data3.setVisibility(View.GONE);
         data4 =  findViewById(R.id.textViewdata4);
+        data4.setVisibility(View.GONE);
         data5 =  findViewById(R.id.textViewdata5);
+        data5.setVisibility(View.GONE);
         data6 =  findViewById(R.id.textViewdata6);
+        data6.setVisibility(View.GONE);
         data7 =  findViewById(R.id.textViewdata7);
+        data7.setVisibility(View.GONE);
 
         sdata1 ="The basic role of any accounting section of an organization is to keep a systematic record of all the financial transactions. Systematic record keeping will ensure a proper level of analysis to arrive at the financial health of an organization.\n" +
                 "\n" +
@@ -88,8 +98,10 @@ public class objective_of_accounting extends AppCompatActivity implements View.O
     @Override
     public void onClick(View v) {
         switch(v.getId()){
-            case R.id.texttitile1 :  if(arr[0]==0){data1.setVisibility(View.VISIBLE); arr[0] =1;}
-                                       else {data1.setVisibility(View.GONE); arr[0] =0;}
+            case R.id.texttitile1 :  if(arr[0]==0){
+                                        data1.setVisibility(View.VISIBLE); arr[0] =1;
+                                        Transition transition = new Slide(Gravity.TOP);}
+                                        else {data1.setVisibility(View.GONE); arr[0] =0;}
                 break;
             case R.id.texttitile2 : if(arr[1]==0){data2.setVisibility(View.VISIBLE); arr[1] =1;}
                                        else {data2.setVisibility(View.GONE); arr[1] =0;}
