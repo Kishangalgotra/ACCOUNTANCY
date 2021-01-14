@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
 
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:background="@color/cardview_light_background"
@@ -29,11 +28,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:gravity="bottom"
                 android:padding="15dp"
                 android:text="1) Record Keeping"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -41,19 +41,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
-                android:text="TextView1" />
+                android:text="TextView1"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/texttitile2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:gravity="bottom"
                 android:padding="15dp"
-                android:text="2) analyzing and ascertaining the financial results"
+                android:text="2) Analyzing and ascertaining the financial results"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -61,19 +64,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
-                android:text="TextView2" />
+                android:text="TextView2"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/texttitile3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:gravity="bottom"
                 android:padding="15dp"
-                android:text="3) analysis of the financial status of affairs"
+                android:text="3) Analysis of the financial status of affairs"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -81,19 +87,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
-                android:text="TextView3" />
+                android:text="TextView3"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/texttitile4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:gravity="bottom"
                 android:padding="15dp"
                 android:text="4) Decision Making"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -101,19 +110,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/texttitile5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:gravity="bottom"
                 android:padding="15dp"
                 android:text="5) Liquidity Status"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -121,19 +133,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/texttitile6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:gravity="bottom"
                 android:padding="15dp"
                 android:text="6) Securing the positioning"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -141,19 +156,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/texttitile7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
+                android:gravity="bottom"
                 android:padding="15dp"
                 android:text="7) Accountability "
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -161,8 +179,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
                 android:background="@color/cardview_light_background"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textSize="17sp" />
         </LinearLayout>
     </ScrollView>
 
