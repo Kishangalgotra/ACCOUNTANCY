@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_Role_of_accounting"
+    android:background="@color/cardview_light_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/role_of_accounting_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/texttitile1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout_yello"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:text="@string/_1_record_keeping"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewdata1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/textview1"
+            android:textSize="15sp"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/texttitile2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout_yello"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:text="@string/_2_analyzing_and_ascertaining_the_financial_results"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewdata2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/textview2"
+            android:textSize="15sp"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/texttitile3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout_yello"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:text="@string/_3_analysis_of_the_financial_status_of_affairs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewdata3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/textview3"
+            android:textSize="15sp"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/texttitile4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout_yello"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:text="@string/_4_decision_making"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewdata4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/textview"
+            android:textSize="15sp"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/texttitile5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout_yello"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:text="@string/_5_liquidity_status"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewdata5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/textview"
+            android:textSize="15sp"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/texttitile6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout_yello"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:text="@string/_6_securing_the_positioning"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewdata6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/textview"
+            android:textSize="15sp"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/texttitile7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout_yello"
+            android:clickable="false"
+            android:fontFamily="@font/montserrat"
+            android:gravity="bottom"
+            android:onClick="onClick"
+            android:padding="15dp"
+            android:text="@string/_7_accountability"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewdata7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="@color/cardview_light_background"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/textview"
+            android:textSize="15sp"
+            tools:visibility="gone" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

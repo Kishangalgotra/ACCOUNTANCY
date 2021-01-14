@@ -99,7 +99,7 @@ public class BasicActivity extends AppCompatActivity  implements View.OnClickLis
             sdata2 ="Accounting keeps track of the financial records of a business. In addition to recording financial transactions, it involves reporting, analyzing and summarizing information.";
             data2.setText(sdata2);
 
-            sdata3 ="Accounts Payable are liabilities of a business and represent money owed to others.\n";
+            sdata3 ="Accounts Payable are liabilities of a business and represent money owed to others.";
             data3.setText(sdata3);
 
             sdata4 ="Assets of a business and represent money owed to a business by others.";
@@ -120,7 +120,7 @@ public class BasicActivity extends AppCompatActivity  implements View.OnClickLis
             sdata9 ="Allow financial transactions to be traced to their source.";
             data9.setText(sdata9);
 
-            sdata10 ="Examine financial accounts and records to evaluate their accuracy and the financial condition of the entity.\n";
+            sdata10 ="Examine financial accounts and records to evaluate their accuracy and the financial condition of the entity.";
             data10.setText(sdata10);
 
             sdata11 ="Provides a snapshot of a business’ assets, liabilities, and equity on a given date.";
@@ -132,7 +132,7 @@ public class BasicActivity extends AppCompatActivity  implements View.OnClickLis
             sdata13 ="Budgeting involves maintaining a financial plan to control cash flow.";
             data13.setText(sdata13);
 
-            sdata14 ="Total amount of common and preferred stock issued by a company.";
+            sdata14 ="Total amount of common and preferred stock issued by a company.\n";
             data14.setText(sdata14);
 
     }

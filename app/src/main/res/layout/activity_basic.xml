@@ -12,17 +12,21 @@
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFF"
+        android:scrollbarSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:id="@+id/linerlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+
             android:orientation="vertical"
             android:padding="10dp">
 
@@ -31,14 +35,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="@string/accounting_equation"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -47,22 +53,26 @@
                 android:id="@+id/basic2_textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
                 android:text="@string/textview"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Accounting "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -71,22 +81,27 @@
                 android:id="@+id/basic2_textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Accounts Payable"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -95,22 +110,27 @@
                 android:id="@+id/basic2_textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Accounts Receivable"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -119,22 +139,27 @@
                 android:id="@+id/basic2_textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Accrual Accounting"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -143,22 +168,27 @@
                 android:id="@+id/basic2_textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Accruals "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -167,22 +197,27 @@
                 android:id="@+id/basic2_textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="@string/amortization"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -191,22 +226,27 @@
                 android:id="@+id/basic2_textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Asset "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -215,22 +255,27 @@
                 android:id="@+id/basic2_textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="@string/audit_trail"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -239,22 +284,27 @@
                 android:id="@+id/basic2_textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Auditors "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -263,8 +313,11 @@
                 android:id="@+id/basic2_textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="@string/textview"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
 
             <TextView
@@ -272,14 +325,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Balance Sheet"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -288,22 +343,27 @@
                 android:id="@+id/basic2_textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Bookkeeping "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -312,22 +372,27 @@
                 android:id="@+id/basic2_textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="@string/textview"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Budgeting  "
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -336,22 +401,27 @@
                 android:id="@+id/basic2_textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/basic_title_14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_layout_yello"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/montserrat"
                 android:freezesText="true"
                 android:gravity="bottom"
                 android:lineSpacingExtra="8sp"
+                android:padding="10dp"
+                android:scrollbarSize="18sp"
                 android:text="Capital Stock"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 android:textStyle="normal"
                 android:typeface="monospace"
                 app:autoSizeTextType="none" />
@@ -360,8 +430,11 @@
                 android:id="@+id/basic2_textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textSize="15sp" />
 
 
         </LinearLayout>
