@@ -22,7 +22,7 @@ public class BasicPointActivity extends AppCompatActivity {
     }
 
     public void Role_of_Accounting(View view) {
-        Intent intent = new Intent(BasicPointActivity.this, Meaning_of_Accounting.class);
+        Intent intent = new Intent(BasicPointActivity.this, activity_Role_of_accounting.class);
         startActivity(intent);
         CustomIntent.customType(this,"left-to-right");
     }

@@ -86,6 +86,7 @@
             android:fontFamily="sans-serif-condensed-light"
             android:gravity="center"
             android:padding="15dp"
+            android:onClick="Role_of_Accounting"
             android:text="@string/role_of_accounting"
             android:textColor="@android:color/background_dark"
             android:textSize="18sp" />
