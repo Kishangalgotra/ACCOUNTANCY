@@ -34,7 +34,6 @@ public class activity_Role_of_accounting extends AppCompatActivity  implements V
 
         data1 = findViewById(R.id.role_of_accounting_text);
 
-
         data2 =  findViewById(R.id.role_textViewdata1);
         data2.setVisibility(View.GONE);
         data3 =  findViewById(R.id.role_textViewdata2);

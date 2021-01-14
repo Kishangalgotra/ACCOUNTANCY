@@ -40,7 +40,7 @@
                 android:padding="10dp"
                 android:text="@string/basic_terms_in_accounting"
                 android:textColor="@android:color/black"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/basic_title_1"
