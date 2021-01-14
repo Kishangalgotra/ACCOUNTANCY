@@ -30,6 +30,18 @@ public class activity_Role_of_accounting extends AppCompatActivity  implements V
         setContentView(R.layout.activity_role_of_accounting);
 
         data1 = findViewById(R.id.role_of_accounting_text);
+        data2 =  findViewById(R.id.role_textViewdata1);
+        data2.setVisibility(View.GONE);
+        data3 =  findViewById(R.id.role_textViewdata2);
+        data3.setVisibility(View.GONE);
+        data4 =  findViewById(R.id.role_textViewdata3);
+        data4.setVisibility(View.GONE);
+        data5 =  findViewById(R.id.role_textViewdata4);
+        data5.setVisibility(View.GONE);
+        data6 =  findViewById(R.id.role_textViewdata5);
+        data6.setVisibility(View.GONE);
+
+
         sdata1 = "Accounting is often called “the language of business.” Why?\n" +
                 "Because it communicates so much of the information that owners, managers, and investors need to evaluate a company’s" +
                 "financial performance.\n\n" +

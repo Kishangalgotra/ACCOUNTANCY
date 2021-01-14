@@ -18,6 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +47,7 @@
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/texttitile1"
+            android:id="@+id/role_texttitile1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_layout_yello"
@@ -55,14 +56,14 @@
             android:gravity="bottom"
             android:onClick="onClick"
             android:padding="15dp"
-            android:text="@string/_1_record_keeping"
+            android:text="@string/fields_of_accounting"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
             android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/textViewdata1"
+            android:id="@+id/role_textViewdata1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
@@ -73,7 +74,7 @@
             tools:visibility="gone" />
 
         <TextView
-            android:id="@+id/texttitile2"
+            android:id="@+id/role_texttitile2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_layout_yello"
@@ -82,14 +83,14 @@
             android:gravity="bottom"
             android:onClick="onClick"
             android:padding="15dp"
-            android:text="@string/_2_analyzing_and_ascertaining_the_financial_results"
+            android:text="Management Accounting"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
             android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/textViewdata2"
+            android:id="@+id/role_textViewdata2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
@@ -100,7 +101,7 @@
             tools:visibility="gone" />
 
         <TextView
-            android:id="@+id/texttitile3"
+            android:id="@+id/role_texttitile3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_layout_yello"
@@ -109,14 +110,14 @@
             android:gravity="bottom"
             android:onClick="onClick"
             android:padding="15dp"
-            android:text="@string/_3_analysis_of_the_financial_status_of_affairs"
+            android:text="Financial Accounting"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
             android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/textViewdata3"
+            android:id="@+id/role_textViewdata3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
@@ -127,7 +128,7 @@
             tools:visibility="gone" />
 
         <TextView
-            android:id="@+id/texttitile4"
+            android:id="@+id/role_texttitile4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_layout_yello"
@@ -136,14 +137,14 @@
             android:gravity="bottom"
             android:onClick="onClick"
             android:padding="15dp"
-            android:text="@string/_4_decision_making"
+            android:text="Who Uses Financial Accounting Information?"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
             android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/textViewdata4"
+            android:id="@+id/role_textViewdata4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
@@ -154,7 +155,7 @@
             tools:visibility="gone" />
 
         <TextView
-            android:id="@+id/texttitile5"
+            android:id="@+id/role_texttitile5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_layout_yello"
@@ -163,14 +164,14 @@
             android:gravity="bottom"
             android:onClick="onClick"
             android:padding="15dp"
-            android:text="@string/_5_liquidity_status"
+            android:text="Owners and Managers"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
             android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/textViewdata5"
+            android:id="@+id/role_textViewdata5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
@@ -181,7 +182,7 @@
             tools:visibility="gone" />
 
         <TextView
-            android:id="@+id/texttitile6"
+            android:id="@+id/role_texttitile6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_layout_yello"
@@ -190,14 +191,14 @@
             android:gravity="bottom"
             android:onClick="onClick"
             android:padding="15dp"
-            android:text="@string/_6_securing_the_positioning"
+            android:text="Investors and Creditors"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@android:color/background_dark"
             android:textSize="17sp"
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/textViewdata6"
+            android:id="@+id/role_textViewdata6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
@@ -208,7 +209,7 @@
             tools:visibility="gone" />
 
         <TextView
-            android:id="@+id/texttitile7"
+            android:id="@+id/role_texttitile7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_layout_yello"
@@ -224,7 +225,7 @@
             android:textStyle="normal" />
 
         <TextView
-            android:id="@+id/textViewdata7"
+            android:id="@+id/role_textViewdata7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
