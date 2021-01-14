@@ -9,8 +9,8 @@ import maes.tech.intentanim.CustomIntent;
 
 public class BasicPointActivity extends AppCompatActivity {
 
-    public void Meaning_of_Accounting(View view) {
-        Intent intent = new Intent(BasicPointActivity.this, Meaning_of_Accounting.class);
+    public void Basic_Activity(View view) {
+        Intent intent = new Intent(BasicPointActivity.this, BasicActivity.class);
         startActivity(intent);
         CustomIntent.customType(this,"left-to-right");
     }

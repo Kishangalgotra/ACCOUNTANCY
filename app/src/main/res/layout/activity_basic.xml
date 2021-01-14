@@ -8,68 +8,363 @@
     tools:context=".BasicActivity">
 
 
-        <ScrollView
-            android:id="@+id/scrollview"
-            android:layout_width="401dp"
-            android:layout_height="529dp"
-            android:layout_marginBottom="34dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-            <LinearLayout
-                android:id="@+id/linerlayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/MOA_textview"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/raleway_semibold"
-                    android:inputType="none"
-                    android:lineSpacingExtra="8sp"
-                    android:outlineProvider="paddedBounds"
-                    android:padding="22dp"
-                    android:singleLine="false"
-                    android:text="@string/text_view"
-                    android:textColor="@color/cardview_dark_background"
-                    android:textSize="16sp" />
-
-            </LinearLayout>
-        </ScrollView>
-
-        <RelativeLayout
-            android:id="@+id/relativeLayout"
-            android:layout_width="416dp"
-            android:layout_height="181dp"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="1dp"
-            android:layout_marginEnd="1dp"
-            android:layout_marginBottom="1dp"
-            app:layout_constraintBottom_toTopOf="@+id/scrollview"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:id="@+id/linerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="377dp"
-                android:layout_height="110dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginEnd="19dp"
-                android:layout_marginBottom="31dp"
-                android:fontFamily="sans-serif-thin"
-                android:gravity="center"
-                android:text="Meanning OF Accounting"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-        </RelativeLayout>
+                android:id="@+id/basic_title_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/accounting_equation"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Accounting "
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Accounts Payable"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Accounts Receivable"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Accrual Accounting"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Accruals "
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/amortization"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Asset "
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/audit_trail"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Auditors "
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/basic_title_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Balance Sheet"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Bookkeeping "
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Budgeting  "
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/basic_title_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:fontFamily="sans-serif-light"
+                android:freezesText="true"
+                android:gravity="bottom"
+                android:lineSpacingExtra="8sp"
+                android:text="Capital Stock"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:typeface="monospace"
+                app:autoSizeTextType="none" />
+
+            <TextView
+                android:id="@+id/basic2_textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

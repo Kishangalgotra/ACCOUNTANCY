@@ -2,35 +2,7 @@
     <string name="app_name">ACCOUNTANCY</string>
     <string name="accountancy">Accountancy</string>
 
-    <string name="text_view">Over the centuries,\nAccounting has remained
-                            confined to the financial record-keeping
-                            functions of the accountant.\n\nBut, today’s rapidly changing business
-                            environment has forced the accountants to
-                            reassess their roles and functions both within
-                            the organisation and the society.\n\nThe role of an accountant has now shifted
-                            from that of
-                            a mere recorder of transactions to that of the
-                            member providing relevant information to the
-                            decision-making team.\n\nBroadly speaking,
-                            accounting today is much more than just bookkeeping
-                            and the preparation of financial reports.\n\nAccountants are now capable of working in exciting
-                            new growth areas such as: forensic accounting
-                            \n(solving crimes such as computer hacking and the
-                            theft of large amounts of money on the internet); ecommerce
-                            (designing web-based payment system);
-financial planning, environmental accounting, etc.\n\nThis realisation came due to the fact that accounting
-is capable of providing the kind of information that
-managers and other interested persons need in
-order to make better decisions.\n\nThis aspect of
-accounting gradually assumed so much importance
-that it has now been raised to the level of an
-information system.\n\nAs an information system, it
-collects data and communicates economic
-information about the organisation to a wide variety
-of users whose decisions and actions are related to
-its performance.\n\nThis introductory chapter
-therefore, deals with the nature, need and scope of
-accounting in this context.</string>
+
 
     <string name="MOA_textview">In 1941, The American Institute of Certified Public Accountants (AICPA) had
 defined accounting as the art of recording, classifying, and summarising in a
@@ -241,5 +213,10 @@ sacrificing relevance and reliability.
     <string name="accounting_as_source_of_information">Accounting as source of Information</string>
     <string name="todo">TODO</string>
     <string name="meanning_of_accounting">Meanning OF Accounting</string>
+    <string name="accounting_equation">Accounting Equation</string>
+    <string name="audit_trail">Audit Trail</string>
+    <string name="textview">TextView</string>
+
+    <string name="amortization">Amortization</string>
 
 </resources>
