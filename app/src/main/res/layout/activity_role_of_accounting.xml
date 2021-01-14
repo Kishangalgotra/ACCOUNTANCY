@@ -31,6 +31,18 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/role_of_accounting"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+        <TextView
             android:id="@+id/role_of_accounting_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
