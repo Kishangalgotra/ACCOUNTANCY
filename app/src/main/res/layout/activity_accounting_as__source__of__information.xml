@@ -33,7 +33,7 @@
                 android:padding="10dp"
                 android:text="@string/accounting_as_source_of_information"
                 android:textColor="@android:color/black"
-                android:textSize="36sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:id="@+id/AAS_textview"
