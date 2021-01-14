@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_Role_of_accounting"></activity>
+        <activity android:name=".activity_Role_of_accounting" />
         <activity android:name=".objective_of_accounting" />
         <activity android:name=".Accounting_as_Source_Of_Information" />
         <activity android:name=".Meaning_of_Accounting" />
