@@ -7,82 +7,61 @@
     tools:context=".Accounting_as_Source_Of_Information">
 
 
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="416dp"
-        android:layout_height="181dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollview"
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="389dp"
-            android:layout_height="165dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="9dp"
-            android:layout_marginEnd="12dp"
-            android:layout_marginBottom="7dp"
-            android:fontFamily="sans-serif-thin"
-            android:gravity="center"
-            android:text="@string/accounting_as_source_of_information"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-    </RelativeLayout>
-
-
-    <ScrollView
-        android:id="@+id/scrollview"
-        android:layout_width="401dp"
-        android:layout_height="529dp"
-        android:layout_marginBottom="34dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
-
-    <LinearLayout
-        android:id="@+id/linerlayoutAAS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/AAS_textview"
+        <LinearLayout
+            android:id="@+id/linerlayoutAAS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/raleway_semibold"
-            android:inputType="none"
-            android:lineSpacingExtra="8sp"
-            android:outlineProvider="paddedBounds"
-            android:padding="22dp"
-            android:singleLine="false"
-            android:text="@string/AAS_textView"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="16sp" />
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/AAS_textview2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/raleway_semibold"
-            android:inputType="none"
-            android:lineSpacingExtra="8sp"
-            android:outlineProvider="paddedBounds"
-            android:padding="22dp"
-            android:singleLine="false"
-            android:text="@string/AAS_textView2"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="16sp" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/accounting_as_source_of_information"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/AAS_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_semibold"
+                android:inputType="none"
+                android:lineSpacingExtra="8sp"
+                android:outlineProvider="paddedBounds"
+                android:padding="22dp"
+                android:singleLine="false"
+                android:text="@string/AAS_textView"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/AAS_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_semibold"
+                android:inputType="none"
+                android:lineSpacingExtra="8sp"
+                android:outlineProvider="paddedBounds"
+                android:padding="22dp"
+                android:singleLine="false"
+                android:text="@string/AAS_textView2"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+        </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
