@@ -231,4 +231,14 @@ sacrificing relevance and reliability.
     <string name="textview1">TextView1</string>
     <string name="fields_of_accounting">Fields of Accounting</string>
 
+    <string name="reliability">Reliability</string>
+    <string name="understandability">Understandability</string>
+    <string name="relevance">Relevance</string>
+    <string name="fixation_of_prices_thereof">Fixation of Prices Thereof</string>
+    <string name="accountant_role_in_generating_information">Accountant role in Generating Information</string>
+    <string name="characteristics_of_accounting_information">Characteristics of Accounting Information</string>
+
+    <string name="financial_accounting">Financial accounting</string>
+    <string name="accounting_interlinked_activities">Accounting interlinked Activities</string>
+
 </resources>
