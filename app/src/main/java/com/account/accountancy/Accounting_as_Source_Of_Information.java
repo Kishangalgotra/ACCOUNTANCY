@@ -63,17 +63,17 @@ public class Accounting_as_Source_Of_Information extends AppCompatActivity imple
 
         sdata2 ="Accounting is a definite processes of interlinked activities,\n" +
                 "that begins with the identification of transactions and ends\n" +
-                "with the preparation of financial statements.\n Every step in the process of" +
-                "accounting generates information.\n Generation of information is not an end" +
-                "in itself.\n It is a means to facilitate the dissemination of information among" +
+                "with the preparation of financial statements.\nEvery step in the process of" +
+                "accounting generates information.\nGeneration of information is not an end" +
+                "in itself.\nIt is a means to facilitate the dissemination of information among" +
                 "different user groups. Such information enables the interested parties to" +
-                "take appropriate decisions.\n Therefore, dissemination of information is an" +
-                "essential function of accounting.\n To be useful, the accounting information should" +
+                "take appropriate decisions.\nTherefore, dissemination of information is an" +
+                "essential function of accounting.\nTo be useful, the accounting information should" +
                 "ensure to:\n";
         data2.setText(sdata2);
 
         sdata3 ="Its role is to observe,\n" +
-                "screen and recognise events and transactions to measure and process them,\n" +
+                "screen and recognise events and transactions to measure and process them," +
                 "and thereby compile reports comprising accounting information that are" +
                 "communicated to the users.\nThese are then interpreted, decoded and used" +
                 "by management and other user groups.\nIt must be ensured that the information" +
