@@ -54,20 +54,21 @@ public class Accounting_as_Source_Of_Information extends AppCompatActivity imple
         data9 =  findViewById(R.id.source_textdata8);
         data9.setVisibility(View.GONE);
 
-        sdata1 = "Accounting is regarded as the language of a business. It is used as a means of communication between a business\n" +
-                "organization and its shareholders. The accounting process is a source of information, it uses business data and\n" +
-                "processes it to generate relevant information. Let us have a look.\n";
+        sdata1 ="Accounting is regarded as the language of a business.\n"+
+                "It is used as a means of communication between a business" +
+                "organization and its shareholders.\nThe accounting process is a source of information, it uses business data and" +
+                "processes it to generate relevant information.\nLet us have a look.\n";
         data1.setText(sdata1);
 
 
         sdata2 ="Accounting is a definite processes of interlinked activities,\n" +
-                "(refer figure 1.1) that begins with the identification of transactions and ends\n" +
-                "with the preparation of financial statements. Every step in the process of\n" +
-                "accounting generates information. Generation of information is not an end\n" +
-                "in itself. It is a means to facilitate the dissemination of information among\n" +
+                "that begins with the identification of transactions and ends\n" +
+                "with the preparation of financial statements.\n Every step in the process of" +
+                "accounting generates information.\n Generation of information is not an end" +
+                "in itself.\n It is a means to facilitate the dissemination of information among" +
                 "different user groups. Such information enables the interested parties to\n" +
-                "take appropriate decisions. Therefore, dissemination of information is an\n" +
-                "essential function of accounting.\\n\\n To be useful, the accounting information should\n" +
+                "take appropriate decisions.\n Therefore, dissemination of information is an" +
+                "essential function of accounting.\n To be useful, the accounting information should\n" +
                 "ensure to:\\n\\t";
         data2.setText(sdata2);
 
