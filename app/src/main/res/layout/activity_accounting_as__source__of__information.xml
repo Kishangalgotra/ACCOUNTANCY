@@ -64,8 +64,10 @@
                 android:id="@+id/source_textdata1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
-                android:paddingEnd="10dp" />
+                android:paddingEnd="10dp"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/source_texttitle2"
@@ -81,9 +83,11 @@
                 android:id="@+id/source_textdata2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
                 android:paddingEnd="10dp"
-                android:text="@string/textview" />
+                android:text="@string/textview"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/source_texttitle3"
@@ -99,9 +103,11 @@
                 android:id="@+id/source_textdata3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
                 android:paddingEnd="10dp"
-                android:text="@string/textview" />
+                android:text="@string/textview"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/source_texttitle4"
@@ -117,9 +123,11 @@
                 android:id="@+id/source_textdata4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
                 android:paddingEnd="10dp"
-                android:text="@string/textview" />
+                android:text="@string/textview"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/source_texttitle5"
@@ -135,9 +143,11 @@
                 android:id="@+id/source_textdata5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
                 android:paddingEnd="10dp"
-                android:text="@string/textview" />
+                android:text="@string/textview"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/source_texttitle6"
@@ -153,9 +163,11 @@
                 android:id="@+id/source_textdata6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
                 android:paddingEnd="10dp"
-                android:text="@string/textview" />
+                android:text="@string/textview"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/source_texttitle7"
@@ -171,9 +183,11 @@
                 android:id="@+id/source_textdata7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
                 android:paddingEnd="10dp"
-                android:text="@string/textview" />
+                android:text="@string/textview"
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/source_texttitle8"
@@ -189,9 +203,11 @@
                 android:id="@+id/source_textdata8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
                 android:paddingStart="15dp"
                 android:paddingEnd="10dp"
-                android:text="@string/textview" />
+                android:text="@string/textview"
+                android:textColor="@android:color/black" />
 
 
         </LinearLayout>

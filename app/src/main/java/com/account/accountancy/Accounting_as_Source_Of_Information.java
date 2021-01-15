@@ -57,7 +57,7 @@ public class Accounting_as_Source_Of_Information extends AppCompatActivity imple
         sdata1 ="Accounting is regarded as the language of a business.\n"+
                 "It is used as a means of communication between a business" +
                 "organization and its shareholders.\nThe accounting process is a source of information, it uses business data and" +
-                "processes it to generate relevant information.\nLet us have a look.\n";
+                "processes it to generate relevant information.\nLet us have a look.";
         data1.setText(sdata1);
 
 
@@ -138,13 +138,13 @@ public class Accounting_as_Source_Of_Information extends AppCompatActivity imple
         data8.setText(sdata8);
 
         sdata9 ="Understandability means decision-makers must interpret accounting" +
-                "information in the same sense as it is prepared and conveyed to them.\n The" +
-                "qualities that distinguish between good and bad communication in a message" +
+                "information in the same sense as it is prepared and conveyed to them.\nThe" +
+                " qualities that distinguish between good and bad communication in a message" +
                 "are fundamental to the understandability of the message.\nA message is said" +
-                "to be effectively communicated when it is interpreted by the receiver of the" +
-                "message in the same sense in which the sender has sent.\nAccountants should" +
-                "present the comparable information in the most intenlligible manner without" +
-                "sacrificing relevance and reliability.";
+                " to be effectively communicated when it is interpreted by the receiver of the" +
+                " message in the same sense in which the sender has sent.\nAccountants should" +
+                " present the comparable information in the most intenlligible manner without" +
+                " sacrificing relevance and reliability.";
         data9.setText(sdata9);
     }
 
