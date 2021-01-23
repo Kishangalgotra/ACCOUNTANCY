@@ -69,7 +69,16 @@ public class Accounting_as_Source_Of_Information extends AppCompatActivity imple
                 "different user groups. Such information enables the interested parties to" +
                 "take appropriate decisions.\nTherefore, dissemination of information is an" +
                 "essential function of accounting.\nTo be useful, the accounting information should" +
-                "ensure to:\n";
+                "ensure to:\n" + "• provide information for making economic decisions;\n" +
+                "• serve the users who rely on financial statements as their principal source" +
+                "of information;\n" +
+                "• provide information useful for predicting and evaluating the amount," +
+                 "timing and uncertainty of potential cash-flows;\n"+
+                "• provide information for judging management’s ability to utilise resources"+
+                "effectively in meeting goals;\n"+
+                "• provide factual and interpretative information by disclosing underlying"+
+                "assumptions on matters subject to interpretation, evaluation, prediction,"+
+                "or estimation; \n";
         data2.setText(sdata2);
 
         sdata3 ="Its role is to observe,\n" +
