@@ -15,8 +15,7 @@ public class Meaning_of_Accounting extends AppCompatActivity implements View.OnC
     TextView data3;
     TextView data4;
     TextView data5;
-    TextView data6;
-    TextView data7;
+
     int[] arr ={0,0,0,0,0,0,0};
     String   sdata1;
     String   sdata2;
@@ -39,11 +38,7 @@ public class Meaning_of_Accounting extends AppCompatActivity implements View.OnC
         data4 =  findViewById(R.id.meaning_of_accounting_textViewdata3);
         data4.setVisibility(View.GONE);
         data5 =  findViewById(R.id.meaning_of_accounting_textViewdata4);
-        data5.setVisibility(View.GONE);
-        data6 =  findViewById(R.id.meaning_of_accounting_textViewdata5);
-        data6.setVisibility(View.GONE);
-        data7 =  findViewById(R.id.meaning_of_accounting_textViewdata6);
-        data7.setVisibility(View.GONE);
+       data5.setVisibility(View.GONE);
 
 
         sdata1 = "Accounting is all about the process that helps to record, summarize, analyze, and report data that concerns" +
@@ -51,71 +46,55 @@ public class Meaning_of_Accounting extends AppCompatActivity implements View.OnC
         data1.setText(sdata1);
 
         sdata2 ="The first and foremost function that accounting looks forward to achieving is the recording of the different" +
-                "transactions that are made within the firm.\n This can also be referred to as book-keeping which is a process " +
+                "transactions that are made within the firm.\nThis can also be referred to as book-keeping which is a process " +
                 "of recognizing the transactions and setting them up as records.\n" +
                 "Book-keeping is only concerned with the recording segment and nothing else.\n" +
-                "Accounting maintains a few books for the cause of recording.\n " +
-                "The maintenance of the procedure happens in a systematic manner.\n";
+                "Accounting maintains a few books for the cause of recording.\n" +
+                "The maintenance of the procedure happens in a systematic manner.\n"
+                +"The three different ways of recording are:\n" +
+                "\n" +
+                "1.Putting up a system that will help in maintaining the" +
+                "  records.\n" +
+                "2.Tracking financial transactions.\n" +
+                "3.Aggregating the reports to present a final set of financial reports.";
         data2.setText(sdata2);
 
-        sdata3 ="Management accounting plays a key role in helping managers carry out their responsibilities.\n" +
-                "Because the information that it provides is intended for use by people who perform a wide variety of jobs,\n" +
-                "the format for reporting information is flexible. Reports are tailored to the needs of individual managers,\n" +
-                "and the purpose of such reports is to supply relevant, accurate, timely information in a format that will aid managers in making decisions.\n" +
-                "In preparing, analyzing, and communicating such information, accountants work with individuals from all the functional areas of the" +
-                "organization—human resources, operations, marketing, and finance.";
+        sdata3 ="Raw data is generally the result of recording transactions. However, these raw data are not of much significance to the organization.\n" +
+                "They have no part to play in the decision-making process.\n" +
+                "As a result of this, the accountants divide these raw data into several categories.\n" +
+                "So the recording of the transactions is then followed up by summarizing.";
         data3.setText(sdata3);
 
-        sdata4 ="Financial accounting is responsible for preparing the organization’s financial statements—including the income statement,\n" +
-                "the statement of owner’s equity, the balance sheet, and the statement of cash flows—that summarize a company’s\n" +
-                "past performance and evaluate its current financial condition. In preparing financial statements, financial accountants\n" +
-                "adhere to a uniform set of rules called generally accepted accounting principles (GAAP)—the basic principles for financial\n" +
-                "reporting issued by an independent agency called the Financial Accounting Standards Board (FASB). Users want to be sure that\n" +
-                "financial statements have been prepared according to GAAP because they want to be sure that the information reported in them\n" +
-                "is accurate. They also know that they can compare the statements issued by one company to those of another company in the\n" +
-                "same industry.";
+        sdata4 ="The affairs in any company are the responsibility of the management.\n" +
+                "The owners must know about the various operations happening within the firm using their money.\n"+
+                "Therefore, to take care of this, owners receive reports.\n" +
+                "They receive these reports quarterly and at the end, they receive an annual report that summarizes all their performances.";
         data4.setText(sdata4);
 
-        sdata5 ="The users of managerial accounting information are pretty easy to identify—basically, they’re a firm’s managers. We need to look a\n " +
-                "little more closely, however, at the users of financial accounting information, and we also need to know a little more about what they\n" +
-                "do with the information that accountants provide them.";
+        sdata5 ="Finally, there is an analysis of all the results so far.\n" +
+                "After recording and summary, it is very important to draw conclusions.\n"+
+                "It is the responsibility of the management to check for the positive and negative points.\n"+
+                "Therefore, to analyze all of this, accounting introduces the concept of comparison.\n"+
+                "Comparing profits, sales, equity, and so on with one another to determine and analyze the performance and growth of an organization.";
 
         data5.setText(sdata5);
-
-        sdata6 ="In summarizing the outcomes of a company’s financial activities over a specified period of time, financial statements are,\n" +
-                "in effect, report cards for owners and managers. They show, for example, whether the company did or didn’t make a profit and\n" +
-                "furnish other information about the firm’s financial condition. They also provide information that managers and owners can use\n" +
-                "in order to take corrective action.";
-        data6.setText(sdata6);
-
-        sdata7 ="If you loaned money to a friend to start a business, wouldn’t you want to know how the business was doing? Investors \n" +
-                "and creditors furnish the money that a company needs to operate, and not surprisingly, they feel the same way.\n" +
-                "Because they know that it’s impossible to make smart investment and loan decisions without accurate reports on an organization’s financial health,\n" +
-                "they study financial statements to assess a company’s performance and to make decisions about continued investment.";
-        data7.setText(sdata7);
     }
 
     @Override
     public void onClick(View v) {
         switch(v.getId()){
-            case R.id.role_texttitile1 :  if(arr[0]==0){
+            case R.id.meaning_of_accounting_texttitile1 :  if(arr[0]==0){
                 data2.setVisibility(View.VISIBLE); arr[0] =1; }
             else {data2.setVisibility(View.GONE); arr[0] =0;}
                 break;
-            case R.id.role_texttitile2 : if(arr[1]==0){data3.setVisibility(View.VISIBLE); arr[1] =1;}
+            case R.id.meaning_of_accounting_texttitile2 : if(arr[1]==0){data3.setVisibility(View.VISIBLE); arr[1] =1;}
             else {data3.setVisibility(View.GONE); arr[1] =0;}
                 break;
-            case R.id.role_texttitile3 :  if(arr[2]==0){data4.setVisibility(View.VISIBLE); arr[2] =1;}
+            case R.id.meaning_of_accounting_texttitile3 :  if(arr[2]==0){data4.setVisibility(View.VISIBLE); arr[2] =1;}
             else {data4.setVisibility(View.GONE); arr[2] =0;}
                 break;
-            case R.id.role_texttitile4 : if(arr[3]==0){data5.setVisibility(View.VISIBLE); arr[3] =1;}
+            case R.id.meaning_of_accounting_texttitile4 : if(arr[3]==0){data5.setVisibility(View.VISIBLE); arr[3] =1;}
             else {data5.setVisibility(View.GONE); arr[3] =0;}
-                break;
-            case R.id.role_texttitile5 :  if(arr[4]==0){data6.setVisibility(View.VISIBLE); arr[4] =1;}
-            else {data6.setVisibility(View.GONE); arr[4] =0;}
-                break;
-            case R.id.role_texttitile6 :  if(arr[5]==0){data7.setVisibility(View.VISIBLE); arr[5] =1;}
-            else {data7.setVisibility(View.GONE); arr[5] =0;}
                 break;
 
         }
