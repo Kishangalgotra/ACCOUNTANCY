@@ -4,117 +4,222 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Meaning_of_Accounting">
-
+    tools:context=".Meaning_of_Accounting"
+    android:background="@color/cardview_light_background">
 
     <ScrollView
-        android:id="@+id/scrollview"
-        android:layout_width="403dp"
-        android:layout_height="727dp"
-        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:id="@+id/linerlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/MOA_textview"
+                android:id="@+id/textView_meaning_of_accounting"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/raleway_semibold"
-                android:inputType="none"
-                android:lineSpacingExtra="8sp"
-                android:outlineProvider="paddedBounds"
-                android:padding="22dp"
-                android:singleLine="false"
-                android:text="@string/MOA_textview"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="16sp" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/chart" />
+                android:layout_margin="10dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/meaning_of_accounting"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/MOA_textview2"
+                android:id="@+id/meaning_of_accounting_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/raleway_semibold"
-                android:inputType="none"
-                android:lineSpacingExtra="8sp"
-                android:outlineProvider="paddedBounds"
-                android:padding="22dp"
-                android:singleLine="false"
-                android:text="@string/MOA_textview2"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="16sp" />
+                android:clickable="false"
+                android:fontFamily="@font/montserrat"
+                android:gravity="bottom"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <TextView
-                android:id="@+id/MOA_textview3"
+                android:id="@+id/meaning_of_accounting_texttitile1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/raleway_semibold"
-                android:inputType="none"
-                android:lineSpacingExtra="8sp"
-                android:outlineProvider="paddedBounds"
-                android:padding="22dp"
-                android:singleLine="false"
-                android:text="@string/MOA_1.1.1"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="16sp" />
+                android:background="@drawable/button_layout_yello"
+                android:clickable="false"
+                android:fontFamily="@font/montserrat"
+                android:gravity="bottom"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="Recording"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="17sp"
+                android:textStyle="normal" />
 
             <TextView
-                android:id="@+id/MOA_textview4"
+                android:id="@+id/meaning_of_accounting_textViewdata1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/raleway_semibold"
-                android:inputType="none"
-                android:lineSpacingExtra="8sp"
-                android:outlineProvider="paddedBounds"
-                android:padding="22dp"
-                android:singleLine="false"
-                android:text="@string/MOA_1.1.2"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="16sp" />
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/textview1"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:visibility="gone" />
 
             <TextView
-                android:id="@+id/MOA_textview5"
+                android:id="@+id/meaning_of_accounting_texttitile2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/raleway_semibold"
-                android:inputType="none"
-                android:lineSpacingExtra="8sp"
-                android:outlineProvider="paddedBounds"
-                android:padding="22dp"
-                android:singleLine="false"
-                android:text="@string/MOA_1.1.3"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="16sp" />
+                android:background="@drawable/button_layout_yello"
+                android:clickable="false"
+                android:fontFamily="@font/montserrat"
+                android:gravity="bottom"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="Management Accounting"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="17sp"
+                android:textStyle="normal" />
 
             <TextView
-                android:id="@+id/MOA_textview6"
+                android:id="@+id/meaning_of_accounting_textViewdata2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/raleway_semibold"
-                android:inputType="none"
-                android:lineSpacingExtra="8sp"
-                android:outlineProvider="paddedBounds"
-                android:padding="22dp"
-                android:singleLine="false"
-                android:text="@string/MOA_1.1.4"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="16sp" />
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/textview2"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_texttitile3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:clickable="false"
+                android:fontFamily="@font/montserrat"
+                android:gravity="bottom"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="Financial Accounting"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_textViewdata3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/textview3"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_texttitile4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:clickable="false"
+                android:fontFamily="@font/montserrat"
+                android:gravity="bottom"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="Who Uses Financial Accounting Information?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_textViewdata4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/textview"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_texttitile5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:clickable="false"
+                android:fontFamily="@font/montserrat"
+                android:gravity="bottom"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="Owners and Managers"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_textViewdata5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/textview"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_texttitile6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout_yello"
+                android:clickable="false"
+                android:fontFamily="@font/montserrat"
+                android:gravity="bottom"
+                android:onClick="onClick"
+                android:padding="15dp"
+                android:text="Investors and Creditors"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/background_dark"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/meaning_of_accounting_textViewdata6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/textview"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                tools:visibility="gone" />
+
 
         </LinearLayout>
     </ScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

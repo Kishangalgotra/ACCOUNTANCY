@@ -30,45 +30,32 @@ public class Meaning_of_Accounting extends AppCompatActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meaning_of__accounting);
 
-        data1 = findViewById(R.id.role_of_accounting_text);
+        data1 = findViewById(R.id.meaning_of_accounting_text);
 
-        data2 =  findViewById(R.id.role_textViewdata1);
+        data2 =  findViewById(R.id.meaning_of_accounting_textViewdata1);
         data2.setVisibility(View.GONE);
-        data3 =  findViewById(R.id.role_textViewdata2);
+        data3 =  findViewById(R.id.meaning_of_accounting_textViewdata2);
         data3.setVisibility(View.GONE);
-        data4 =  findViewById(R.id.role_textViewdata3);
+        data4 =  findViewById(R.id.meaning_of_accounting_textViewdata3);
         data4.setVisibility(View.GONE);
-        data5 =  findViewById(R.id.role_textViewdata4);
+        data5 =  findViewById(R.id.meaning_of_accounting_textViewdata4);
         data5.setVisibility(View.GONE);
-        data6 =  findViewById(R.id.role_textViewdata5);
+        data6 =  findViewById(R.id.meaning_of_accounting_textViewdata5);
         data6.setVisibility(View.GONE);
-        data7 =  findViewById(R.id.role_textViewdata6);
+        data7 =  findViewById(R.id.meaning_of_accounting_textViewdata6);
         data7.setVisibility(View.GONE);
 
 
-        sdata1 = "Accounting is often called “the language of business.” Why?\n" +
-                "Because it communicates so much of the information that owners, managers, and investors need to evaluate a company’s" +
-                "financial performance.\n\n" +
-                "These people are all stakeholders in the business—they’re interested in its activities because they’re affected by them.\n\n" +
-                "In fact, the purpose of accounting is to help stakeholders make better business decisions by providing them with financial information.\n\n" +
-                "Obviously, you wouldn’t try to run an organization or make investment decisions without accurate and timely financial information, " +
-                "and it’s the accountant who prepares this information.\n\n" +
-                "More importantly, accountants make sure that stakeholders understand the meaning of financial information, and they work with" +
-                "both individuals and organizations to help them use financial information to deal with business problems.\n\n" +
-                "Actually, collecting all the numbers is the easy part—today, all you have to do is start up your accounting software.\n\n" +
-                "The hard part is analyzing, interpreting, and communicating the information. Of course, you also have to present everything clearly while" +
-                "effectively " +
-                "interacting with people from every business discipline.\n\n" +
-                "In any case, we’re now ready to define accounting as the process of measuring and summarizing business activities, interpreting financial" +
-                "information," +
-                "and communicating the results to management and other decision makers.";
+        sdata1 = "Accounting is all about the process that helps to record, summarize, analyze, and report data that concerns" +
+                " financial transactions.\n Let’s understand the components a little better to understand the true meaning of accounting.\n";
         data1.setText(sdata1);
 
-        sdata2 ="Accountants typically work in one of two major fields. Management accountants provide information and analysis to decision makers inside the" +
-                "organization in order to help them run it.\n Financial accountants furnish information to individuals and groups both inside and outside the" +
-                "organization in order to help them assess its financial performance.\n" +
-                "\n" +
-                "In other words, management accounting helps you keep your business running while financial accounting tells you how well you’re running it.";
+        sdata2 ="The first and foremost function that accounting looks forward to achieving is the recording of the different" +
+                "transactions that are made within the firm.\n This can also be referred to as book-keeping which is a process " +
+                "of recognizing the transactions and setting them up as records.\n" +
+                "Book-keeping is only concerned with the recording segment and nothing else.\n" +
+                "Accounting maintains a few books for the cause of recording.\n " +
+                "The maintenance of the procedure happens in a systematic manner.\n";
         data2.setText(sdata2);
 
         sdata3 ="Management accounting plays a key role in helping managers carry out their responsibilities.\n" +
