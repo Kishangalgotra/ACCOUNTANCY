@@ -40,7 +40,6 @@ public class Meaning_of_Accounting extends AppCompatActivity implements View.OnC
         data5 =  findViewById(R.id.meaning_of_accounting_textViewdata4);
        data5.setVisibility(View.GONE);
 
-
         sdata1 = "Accounting is all about the process that helps to record, summarize, analyze, and report data that concerns" +
                 " financial transactions.\n Let’s understand the components a little better to understand the true meaning of accounting.\n";
         data1.setText(sdata1);
