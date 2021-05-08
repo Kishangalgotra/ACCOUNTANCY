@@ -32,30 +32,46 @@
             android:textSize="55sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/accountancy_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="@string/accountancy" />
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            android:fontFamily="@font/nunito_sans_light"
+            android:text="@string/accountancy"
+            android:background="@drawable/accountancy_button"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:textColor="#FFF"
+            android:textSize="26sp"
+            android:fontFamily="@font/nunito_sans_light"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="@string/economics" />
+            android:layout_marginBottom="5dp"
+            android:text="@string/economics"
+            android:background="@drawable/economics_button"
+            />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+            android:textSize="26sp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="@string/business_studies" />
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFF"
+            android:fontFamily="@font/nunito_sans_light"
+            android:text="@string/business_studies"
+            android:background="@drawable/business_study_button"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
