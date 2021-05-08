@@ -240,5 +240,9 @@ sacrificing relevance and reliability.
 
     <string name="financial_accounting">Financial accounting</string>
     <string name="accounting_interlinked_activities">Accounting interlinked Activities</string>
+    <string name="subjects">Subjects</string>
+    <string name="accountancy">Accountancy</string>
+    <string name="economics">Economics</string>
+    <string name="business_studies">Business Studies</string>
 
 </resources>

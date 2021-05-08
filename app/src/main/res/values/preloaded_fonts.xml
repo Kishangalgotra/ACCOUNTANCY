@@ -4,6 +4,8 @@
         <item>@font/antic_didone</item>
         <item>@font/cabin_sketch</item>
         <item>@font/montserrat</item>
+        <item>@font/nunito_sans_extralight_italic</item>
+        <item>@font/nunito_sans_light</item>
         <item>@font/raleway_semibold</item>
     </array>
 </resources>
